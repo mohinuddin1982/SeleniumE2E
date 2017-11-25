@@ -64,7 +64,7 @@ public  void FlightTourDemo() throws Exception {
 //		 System.setProperty("webdriver.chrome.driver",WorkingDirectory+"/chromedriver");
 	
 
-		 System.setProperty("webdriver.chrome.driver",WorkingDirectory+"/chromedriver_Win32.exe");
+		 System.setProperty("webdriver.chrome.driver",WorkingDirectory+"/chromedriver_Win64.exe");
       UIClass.driver = new ChromeDriver(); 
       
       UIClass.driver.quit();
