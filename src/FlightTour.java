@@ -59,11 +59,12 @@ public  void FlightTourDemo() throws Exception {
 		System.out.println("The Test gonna Start for Row Number " + xlfl.I);
 	
 
+		///Mac OSX Driver
 	
-		
+//		 System.setProperty("webdriver.chrome.driver",WorkingDirectory+"/chromedriver");
 	
 
-		 System.setProperty("webdriver.chrome.driver",WorkingDirectory+"/chromedriver");
+		 System.setProperty("webdriver.chrome.driver",WorkingDirectory+"/chromedriver_Win32.exe");
       UIClass.driver = new ChromeDriver(); 
       
       UIClass.driver.quit();
