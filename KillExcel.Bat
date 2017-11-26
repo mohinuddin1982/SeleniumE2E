@@ -1,0 +1,1 @@
+Taskkill /IM EXCEL.EXE /F
